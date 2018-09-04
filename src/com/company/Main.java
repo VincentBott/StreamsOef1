@@ -19,7 +19,7 @@ public class Main {
             rekeningen.add(new Bankrekening(rekeningnummer, bedrag));
         }
 
-        System.out.println("Rekeningen met meer dan 1000 EUR: ");
+        System.out.println("\nRekeningen met meer dan 1000 EUR:\n");
 
 
         rekeningen.stream()
